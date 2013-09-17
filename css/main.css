@@ -1,0 +1,6 @@
+h1, h2, h3, h4, h5, h6 {text-align: center; color:#EBB750; margin: 0; padding: 0; background: inherit;}
+p {text-align: justify}
+body {background-color: #366A9F; color: #90BFFF; font-family: "Times New Roman", Times, serif; font-size: 15px; text-align: center;}
+a {color: #D1D1D1; text-decoration: none;}
+a:hover {color: #DB8700; text-decoration: underline;}
+a:active {color: #DB8700;}

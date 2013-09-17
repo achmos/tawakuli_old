@@ -1,0 +1,5 @@
+/* CSS Document */
+#navcontainer ul {list-style-type: none; padding: 0; margin: 0;}
+#navcontainer a {display: block; color: #FFF; background-color: #036; width: 9em; padding: .2em .8em; text-decoration: none;}
+#navcontainer a:hover {background-color: #369; color: #FFF;}
+#navcontainer li {margin: 0 0 .2em 0; }

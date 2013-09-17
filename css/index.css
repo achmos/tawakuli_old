@@ -1,0 +1,14 @@
+/* CSS Document */
+ul, ol {padding-left: 12px; margin-left: 12px;}
+.pages {list-style-image: url(../images/pages.gif)}
+.page {list-style-image: url(../images/page.gif);}
+.namef {text-decoration: underline; font-weight: bold;}
+.names {text-decoration: underline; font-style: italic;}
+
+/* Divisions */
+#wrapper {width: 740px; text-align: center; background-color: #006083; padding: 5px 2px 5px 5px; margin-right: auto; margin-left: auto;}
+#left {margin-left: 5px; float: left; width: 235px; height: 735px; background-color: #006083;}
+#center {margin-left: 10px; margin-right: 10px; float: left; width: 235px; height: 735px;}
+#right {margin-right: 5px; float: right; width: 235px; height: 735px;} 
+#cols {height: 735px; width: 740px; text-align: left;}
+#footer {text-align: center; width: 740px;}

@@ -1,0 +1,23 @@
+	/* Division Styles */
+#wrapper {width: 735px; height: 100%; background-color: #006083; padding: 5px; text-align: left; margin-right: auto; margin-left: auto;}
+#t {margin-bottom: 10px; width:740px; height: 70px;}
+#pc {width: 590px; font-size: 15px; height: auto; float: right; margin-left: 5px;}
+#footer {width: 735px; clear: both;}
+
+	/* NAVIGATION */
+#nav {width: 140px; font-size: 12px; background-color:#2B37AA; height: auto; float: left;}
+#nav ul {list-style-type: none; padding: 0; margin: 0;}
+#nav li {margin: 0; padding: 0;}
+#nav ul ul ul ul {font-size: 11px;}
+#nav ul a:hover {color: #366A9F; background-color: #60C8CC;}
+#nav ul a:active {background-color: #DB8700;}
+#nav ul a {display: block; color: #D1D1D1; background-color: #2B37AA; width: 133px; padding: 2px 0px 2px 7px; text-decoration: none; border-bottom: 1px solid #fff;}
+#nav ul ul ul ul a {display: block; color: #D1D1D1; background-color: #5B6ACA; width: 131px; padding: 2px 0px 2px 9px; text-decoration: none; border-bottom: 1px solid #fff;}
+.d {display: block; color: #D1D1D1; background-color: #003073; width: 137px; padding: 2px 0px 2px 3px; text-decoration: none; border-bottom: 1px solid #fff;}
+.sd {display: block; color: #D1D1D1; background-color: #003073; width: 135px; padding: 2px 0px 2px 5px; text-decoration: none; border-bottom: 1px solid #fff;}
+
+	/*Validation and Back*/
+#back {padding: 10px 0px 10px 38px;}
+#nav img {border: none;}
+#v {text-align: center;}
+#v p {text-align: center;}

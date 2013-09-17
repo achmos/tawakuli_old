@@ -1,0 +1,10 @@
+h1, h2, h3, h4, h5, h6 {text-align: center; color:#EBB750; margin: 0; padding: 0; background-color: #366A9F;}
+p {text-align: justify}
+body {background-color: #000000; color: #FFFFFF; text-align: center;}
+a {color: #A1A1A1; text-decoration: none;}
+a:hover {color: #DB8700; text-decoration: underline;}
+
+#wrap {width: 805px;  margin-right: auto; margin-left: auto; text-align: left;}
+#wild {width: 660px; margin-left: 5px; float: right; text-align: left;}
+#wildnav {margin-left: 22px;}
+#tiger {margin-left: 5px;}

@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Tawakuli - The Wildlife Project</title>
+<link rel="stylesheet" type="text/css" href="../../css/files/wild.css" />
+<link rel="stylesheet" type="text/css" href="../../css/maindiv.css" />
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script src="../../Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+</head>
+<body onload="MM_preloadImages('../../images/navbar_r2_c2_f3.gif','../../images/navbar_r2_c2_f2.gif','../../images/navbar_r2_c4_f3.gif','../../images/navbar_r2_c4_f2.gif','../../images/navbar_r2_c6_f3.gif','../../images/navbar_r2_c6_f2.gif','../../images/navbar_r2_c8_f3.gif','../../images/navbar_r2_c8_f2.gif','../../images/navbar_r2_c10_f3.gif','../../images/navbar_r2_c10_f2.gif','../../images/navbar_r2_c12_f3.gif','../../images/navbar_r2_c12_f2.gif')">
+<div id="wrap">
+    <img src="../../images/webmain.jpg" alt="Tawakuli" name="t" id="t" />
+    <div id="nav">
+	<ul>
+	<li><span class="d">Classwork</span>
+	  <ul>
+	    <li><span class="sd">Hand-code</span>
+	      <ul>
+		<li><a href="../handcode/history.html">A History of the Internet</a></li>
+		<li><a href="../handcode/lists.html">Experimenting with Lists</a></li>
+		<li><a href="../handcode/reviews.html">Web Reviews</a></li>
+		<li><a href="../handcode/poetry/index.html">Concrete Poetry</a></li>
+		<li><a href="../handcode/special.html">Special Characters</a></li>
+	      </ul>
+	    </li>
+	    <li><span class="sd">Dreamweaver 8 &copy;</span>
+	      <ul>
+		<li><a href="../design.html">Web Designs</a></li>
+		<li><a href="../table.html">Table Design</a></li>
+		<li><a href="../lists/index.html">Lists using CSS</a></li>
+		<li><a href="../essay.html">Paul Graham Essay</a></li>
+		<li><a href="../review.html">Student Reviews</a></li>
+	      </ul>
+	    </li>
+		<li><span class="sd">Fireworks&copy; and Flash&copy;</span>
+		  <ul>
+		    <li><a href="grad.html">Gradient Backgrounds</a></li>
+            <li><a href="wildlife.html">Wildlife Project</a></li>
+            <li><a href="mock.html">Banner</a></li>
+		  </ul>
+		</li>
+	  </ul>
+	  </li>
+	    <li><span class="d">Additions</span>
+		  <ul>
+		<li><a href="../../additions/archive.html">News Archives</a></li>
+		<li><a href="../../additions/validate.html">Validating Markup</a></li>
+		</ul>
+	</li>
+	</ul>
+       <div id="back"><a href="../../index.html"><img src="../../images/back.gif" alt="Back" /></a></div>
+  </div>
+<div id="wild">
+<hr />
+<img src="../../images/banner.gif" width="660" height="40" alt="banner" />
+<table id="wildnav" bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" width="607">
+  <!-- fwtable fwsrc="navbar.png" fwbase="navbar.gif" fwstyle="Dreamweaver" fwdocid = "1106681535" fwnested="0" -->
+  <tr>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" /></td>
+  </tr>
+  <tr>
+    <td colspan="13" bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="607" height="1" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="1" border="0" /></td>
+  </tr>
+  <tr>
+    <td rowspan="2" bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="24" border="0" /></td>
+    <td><a href="wildlife.html" target="_top" onclick="MM_nbGroup('down','navbar1','navbar_r2_c2','../../images/navbar_r2_c2_f3.gif',1);" onmouseover="MM_nbGroup('over','navbar_r2_c2','../../images/navbar_r2_c2_f2.gif','../../images/navbar_r2_c2_f3.gif',1);" onmouseout="MM_nbGroup('out');"><img name="navbar_r2_c2" src="../../images/navbar_r2_c2.gif" width="100" height="22" border="0" id="navbar_r2_c2" alt="" /></a></td>
+    <td rowspan="2" bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="24" border="0" /></td>
+    <td><a href="http://www.dragonlanceforums.com/forums/index.php" target="_top" onclick="MM_nbGroup('down','navbar1','navbar_r2_c4','../../images/navbar_r2_c4_f3.gif',1);" onmouseover="MM_nbGroup('over','navbar_r2_c4','../../images/navbar_r2_c4_f2.gif','../../images/navbar_r2_c4_f3.gif',1);" onmouseout="MM_nbGroup('out');"><img name="navbar_r2_c4" src="../../images/navbar_r2_c4.gif" width="100" height="22" border="0" id="navbar_r2_c4" alt="" /></a></td>
+    <td rowspan="2" bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="24" border="0" /></td>
+    <td><a href="http://www.dragonlance.com/" target="_top" onclick="MM_nbGroup('down','navbar1','navbar_r2_c6','../../images/navbar_r2_c6_f3.gif',1);" onmouseover="MM_nbGroup('over','navbar_r2_c6','../../images/navbar_r2_c6_f2.gif','../../images/navbar_r2_c6_f3.gif',1);" onmouseout="MM_nbGroup('out');"><img name="navbar_r2_c6" src="../../images/navbar_r2_c6.gif" width="100" height="22" border="0" id="navbar_r2_c6" alt="" /></a></td>
+    <td rowspan="2" bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="24" border="0" /></td>
+    <td><a href="http://www.dlnexus.com/" target="_top" onclick="MM_nbGroup('down','navbar1','navbar_r2_c8','../../images/navbar_r2_c8_f3.gif',1);" onmouseover="MM_nbGroup('over','navbar_r2_c8','../../images/navbar_r2_c8_f2.gif','../../images/navbar_r2_c8_f3.gif',1);" onmouseout="MM_nbGroup('out');"><img name="navbar_r2_c8" src="../../images/navbar_r2_c8.gif" width="100" height="22" border="0" id="navbar_r2_c8" alt="" /></a></td>
+    <td rowspan="2" bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="24" border="0" /></td>
+    <td><a href="http://www.ironmaiden.com/homepage.php?section=0&subsection=0" target="_top" onclick="MM_nbGroup('down','navbar1','navbar_r2_c10','../../images/navbar_r2_c10_f3.gif',1);" onmouseover="MM_nbGroup('over','navbar_r2_c10','../../images/navbar_r2_c10_f2.gif','../../images/navbar_r2_c10_f3.gif',1);" onmouseout="MM_nbGroup('out');"><img name="navbar_r2_c10" src="../../images/navbar_r2_c10.gif" width="100" height="22" border="0" id="navbar_r2_c10" alt="" /></a></td>
+    <td rowspan="2" bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="24" border="0" /></td>
+    <td><a href="http://www.ronniejamesdio.com/" target="_top" onclick="MM_nbGroup('down','navbar1','navbar_r2_c12','../../images/navbar_r2_c12_f3.gif',1);" onmouseover="MM_nbGroup('over','navbar_r2_c12','../../images/navbar_r2_c12_f2.gif','../../images/navbar_r2_c12_f3.gif',1);" onmouseout="MM_nbGroup('out');"><img name="navbar_r2_c12" src="../../images/navbar_r2_c12.gif" width="100" height="22" border="0" id="navbar_r2_c12" alt="" /></a></td>
+    <td rowspan="2" bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="24" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="22" border="0" /></td>
+  </tr>
+  <tr>
+    <td bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="2" border="0" /></td>
+    <td bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="2" border="0" /></td>
+    <td bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="2" border="0" /></td>
+    <td bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="2" border="0" /></td>
+    <td bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="2" border="0" /></td>
+    <td bgcolor="#000000"><img src="../../images/spacer.gif" alt="" name="undefined_2" width="100" height="2" border="0" /></td>
+    <td><img src="../../images/spacer.gif" alt="" name="undefined_2" width="1" height="2" border="0" /></td>
+  </tr>
+</table>
+<script type="text/javascript">
+AC_FL_RunContent( 'codebase','http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0','width','650','height','175','id','tiger','align','middle','src','../../images/tiger','loop','false','quality','high','bgcolor','#000000','name','tiger','allowscriptaccess','sameDomain','pluginspage','http://www.macromedia.com/go/getflashplayer','movie','../../images/tiger' ); //end AC code
+</script><noscript><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="650" height="175" id="tiger" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="../../images/tiger.swf" /><param name="loop" value="false" /><param name="quality" value="high" /><param name="bgcolor" value="#000000" /><embed src="../../images/tiger.swf" loop="false" quality="high" bgcolor="#000000" width="650" height="175" name="tiger" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+</object></noscript>
+<p>&nbsp;&nbsp;This page is a summation of tutorials <a href="http://www.macromedia.com/devnet/wildlife_project/">here</a> that create a page with Dreamweaver, Fireworks, and Flash for a non-existent organization called &#8220;The Wildlife Project&#8221;. The links within this page go to external sites, the ones from my favorite list on the index page. </p>
+<hr />
+</div>
+<div id="footer">
+</div>
+</div>
+</body>
+</html>
